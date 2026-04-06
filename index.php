@@ -15,10 +15,10 @@ $corp_res = $conn->query("SELECT * FROM View_Corporate_Clients");
         </div>
 </body>
     <div class="max-w-6xl mx-auto">
-        <h1 class="text-3xl font-bold text-blue-500 mb-10">CORE BANKING SYSTEM</h1>
+        <h1 class="inline-block text-3xl font-bold text-white bg-blue-600 px-4 py-2 rounded-xl shadow-lg mb-10">CORE BANKING SYSTEM</h1>
 
         <div class="mb-12">
-            <h2 class="text-xl font-semibold mb-4 text-purple-400">Individual Clients</h2>
+            <h2 class="inline-block text-xl font-semibold mb-4 text-white bg-purple-600 px-4 py-2 rounded-lg shadow-md">Individual Clients</h2>
             <div class="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
                 <table class="w-full text-left">
                     <thead class="bg-slate-700 text-slate-300">
@@ -39,7 +39,7 @@ $corp_res = $conn->query("SELECT * FROM View_Corporate_Clients");
         </div>
 
         <div>
-            <h2 class="text-xl font-semibold mb-4 text-orange-400">Non-Individual Clients</h2>
+            <h2 class="inline-block text-xl font-semibold mb-4 text-white bg-orange-600 px-4 py-2 rounded-lg shadow-md">Non-Individual Clients</h2>
             <div class="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
                 <table class="w-full text-left">
                     <thead class="bg-slate-700 text-slate-300">
