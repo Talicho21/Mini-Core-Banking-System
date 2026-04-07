@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "minicorebanking");
+// $conn = new mysqli("localhost", "root", "", "minicorebanking");
 $ind_res = $conn->query("SELECT * FROM View_Individual_Clients");
 $corp_res = $conn->query("SELECT * FROM View_Corporate_Clients");
 ?>
