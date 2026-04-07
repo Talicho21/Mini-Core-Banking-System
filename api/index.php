@@ -20,6 +20,32 @@ class MockResult {
         return null;
     }
 }
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <div class="bg-slate-800/50 backdrop-blur-md p-6 rounded-2xl border border-blue-500/30 shadow-xl">
+                <p class="text-slate-400 text-sm font-medium uppercase tracking-wider">Total Onboarded</p>
+                <h3 class="text-4xl font-bold text-white mt-2">1,248</h3>
+                <div class="mt-4 flex items-center text-green-400 text-sm">
+                    <span>↑ 12% this month</span>
+                </div>
+            </div>
+
+            <div class="bg-slate-800/50 backdrop-blur-md p-6 rounded-2xl border border-purple-500/30 shadow-xl">
+                <p class="text-slate-400 text-sm font-medium uppercase tracking-wider">Active Branches</p>
+                <h3 class="text-4xl font-bold text-white mt-2">14</h3>
+                <div class="mt-4 text-slate-300 text-sm">
+                    Main: Arba Minch & Addis
+                </div>
+            </div>
+
+            <div class="bg-slate-800/50 backdrop-blur-md p-6 rounded-2xl border border-orange-500/30 shadow-xl">
+                <p class="text-slate-400 text-sm font-medium uppercase tracking-wider">System Status</p>
+                <h3 class="text-4xl font-bold text-green-400 mt-2">Online</h3>
+                <div class="mt-4 flex items-center text-slate-300 text-sm">
+                    <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse mr-2"></span>
+                    Vercel Edge Network
+                </div>
+            </div>
+        </div>
 
 // 2. Create a Mock Connection Class
 class MockConn {
